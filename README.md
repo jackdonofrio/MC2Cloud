@@ -12,12 +12,12 @@ Python script to download/upload Minecraft worlds to the cloud directly from you
 ## Usage
 ### Uploading worlds
 ```
-python -u My World
+python mc2cloud.py -u My World
 ```
 Uploads world "My World" directly from your saves folder to your dropbox.
 
 ### Downloading worlds
 ```
-python -d My World
+python mc2cloud.py -d My World
 ```
 Downloads world "My World" from dropbox directly into your saves folder.
