@@ -8,6 +8,10 @@ Python script to download/upload Minecraft worlds to the cloud directly from you
 4) Go back to the main Settinsg tab, and scroll down to OAuth 2.
 5) Under Generate access token in the OAuth 2 section, click Generate.
 6) Copy the OAuth2 token and paste it into the OAUTH_KEY value in the script
+7) Install the Python dropbox API:
+```
+pip install dropbox
+```
 
 ## Usage
 ### Uploading worlds
